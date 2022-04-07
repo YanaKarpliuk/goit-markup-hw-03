@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
 <body>
   <header class="header-container">
@@ -29,40 +30,46 @@
   <main class="">
     <!-- Section 1 -->
     <section class="hero-container">
-      <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-      <button type="button" class="hero-btn">Заказать услугу</button>
+      <div class="container hero-flex">
+        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
+      </div>
     </section>
 
     <!-- Section 2 -->
-    <section class="about-container">
-      <ul class="about-list">
-        <li class="about-item">
-          <h3 class="about-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-          <p class="about-item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-        </li>
-        <li class="about-item">
-          <h3 class="about-item-title">ПУНКТУАЛЬНОСТЬ</h3>
-          <p class="about-item-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-        </li>
-        <li class="about-item">
-          <h3 class="about-item-title">ПЛАНИРОВАНИЕ</h3>
-          <p class="about-item-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-        </li>
-        <li class="about-item">  
-          <h3 class="about-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-          <p class="about-item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-        </li>
-      </ul>
+    <section class="about-container container">
+      <div class="about-list-container">
+        <ul class="about-list">
+          <li class="about-item">
+            <h3 class="about-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+            <p class="about-item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li class="about-item">
+            <h3 class="about-item-title">ПУНКТУАЛЬНОСТЬ</h3>
+            <p class="about-item-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </li>
+          <li class="about-item">
+            <h3 class="about-item-title">ПЛАНИРОВАНИЕ</h3>
+            <p class="about-item-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          </li>
+          <li class="about-item">  
+            <h3 class="about-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <p class="about-item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- Section 3 -->
-    <section class="about-container">
-      <h2 class="main-title">Чем мы занимаемся</h2>
-      <ul class="about-img">
-        <li class="about-img-title"><img src="images/img-1.jpg" alt="человек печатает" width="370" height="294"></li>
-        <li class="about-img-title"><img src="images/img-2.jpg" alt="человек смотрит на экран" width="370" height="294"></li>
-        <li class="about-img-title"><img src="images/img-3.jpg" alt="человек смотрит на планшет" width="370" height="294"></li>
-      </ul>
+    <section class="about-container container">
+      <div class="about-list-container">
+        <h2 class="main-title">Чем мы занимаемся</h2>
+        <ul class="about-img">
+          <li class="about-img-title"><img src="images/img-1.jpg" alt="человек печатает" width="370" height="294"></li>
+          <li class="about-img-title"><img src="images/img-2.jpg" alt="человек смотрит на экран" width="370" height="294"></li>
+          <li class="about-img-title"><img src="images/img-3.jpg" alt="человек смотрит на планшет" width="370" height="294"></li>
+        </ul>
+      </div>
     </section>
     
     <!-- Section 4 -->
