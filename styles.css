@@ -288,7 +288,7 @@ body {
 
 .team-group {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .team-group-list {
@@ -297,6 +297,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 15px;
+}
+
+.team-group-list:first-child {
+  margin-left: 0;
+}
+
+.team-group-list:last-child {
+  margin-right: 0;
 }
 
 /* Portfolio */
