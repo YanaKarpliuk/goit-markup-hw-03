@@ -41,7 +41,7 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -242,9 +242,9 @@ body {
 }
 
 .about-container {
-  max-width: 1200px;
+  /* max-width: 1200px;
   width: 100%;
-  margin: auto;
+  margin: auto; */
   padding-top: 95px;
 }
 
@@ -256,8 +256,8 @@ body {
 }
 
 .team-container-flex {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* padding-left: 0; */
 }
 
@@ -357,7 +357,7 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio-img {
